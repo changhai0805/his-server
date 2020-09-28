@@ -14,14 +14,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * <p>
- * 检验项目 服务实现类
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+
 @Service
 public class InspectItemServiceImpl extends ServiceImpl<InspectItemMapper, InspectItem> implements IInspectItemService {
 

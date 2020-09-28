@@ -22,14 +22,7 @@ import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.util.*;
 
-/**
- * <p>
- *  服务实现类
- * </p>
- *
- * @author wangyu
- * @since 2020-08-19
- */
+
 @Service
 public class UmsUserServiceImpl extends ServiceImpl<UmsUserMapper, UmsUser> implements IUmsUserService {
 

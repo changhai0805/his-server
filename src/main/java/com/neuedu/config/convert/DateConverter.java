@@ -10,13 +10,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.regex.Pattern;
 
-/**
- * 项目    ： his-server
- * 创建时间 ：2020/8/26  9:38 26
- * author  ：jshand
- * site    :  http://314649444.iteye.com
- * 描述     :
- */
+
 @Component
 public class DateConverter implements Converter<String, Date> {
     //2020-08-26%2001:02:03

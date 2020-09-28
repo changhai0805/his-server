@@ -14,14 +14,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * <p>
- * 检查项目 服务实现类
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+
 @Service
 public class CheckItemServiceImpl extends ServiceImpl<CheckItemMapper, CheckItem> implements ICheckItemService {
 

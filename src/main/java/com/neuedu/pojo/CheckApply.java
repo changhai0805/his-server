@@ -10,14 +10,7 @@ import lombok.experimental.Accessors;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-/**
- * <p>
- * 检查申请
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)

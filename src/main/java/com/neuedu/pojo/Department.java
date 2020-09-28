@@ -3,18 +3,12 @@ package com.neuedu.pojo;
 import com.neuedu.util.BasePojo;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import lombok.experimental.Accessors;
 
 import java.time.LocalDateTime;
 
-/**
- * <p>
- * 科室
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)

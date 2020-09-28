@@ -8,14 +8,7 @@ import com.neuedu.pojo.ConstantItem;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
-/**
- * <p>
- * 常数项表 Mapper 接口
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+
 public interface ConstantItemMapper extends BaseMapper<ConstantItem> {
 
 

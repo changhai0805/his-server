@@ -16,14 +16,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.*;
 
-/**
- * <p>
- * 权限表 服务实现类
- * </p>
- *
- * @author wangyu
- * @since 2020-08-19
- */
+
 @Service
 public class UmsPermissionServiceImpl extends ServiceImpl<UmsPermissionMapper, UmsPermission> implements IUmsPermissionService {
 

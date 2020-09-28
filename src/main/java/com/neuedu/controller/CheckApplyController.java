@@ -11,14 +11,7 @@ import javax.annotation.Resource;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * <p>
- * 检查申请 前端控制器
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+
 @RestController
 @RequestMapping("/check-apply")
 public class CheckApplyController {

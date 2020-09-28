@@ -14,14 +14,7 @@ import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * <p>
- * 检查申请 服务实现类
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+
 @Service
 public class CheckApplyServiceImpl extends ServiceImpl<CheckApplyMapper, CheckApply> implements ICheckApplyService {
 

@@ -12,14 +12,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * <p>
- * 角色与权限关系表 服务实现类
- * </p>
- *
- * @author wangyu
- * @since 2020-08-19
- */
+
 @Service
 public class UmsRolePermissionServiceImpl extends ServiceImpl<UmsRolePermissionMapper, UmsRolePermission> implements IUmsRolePermissionService {
     @Resource

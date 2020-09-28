@@ -14,14 +14,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * <p>
- * 角色表 服务实现类
- * </p>
- *
- * @author wangyu
- * @since 2020-08-19
- */
+
 @Service
 public class UmsRoleServiceImpl extends ServiceImpl<UmsRoleMapper, UmsRole> implements IUmsRoleService {
     @Override

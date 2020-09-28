@@ -14,14 +14,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * <p>
- * 常数项表 服务实现类
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+s
 @Service
 public class ConstantItemServiceImpl extends ServiceImpl<ConstantItemMapper, ConstantItem> implements IConstantItemService {
     @Override

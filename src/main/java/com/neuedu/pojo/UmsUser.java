@@ -1,5 +1,6 @@
 package com.neuedu.pojo;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.neuedu.util.BasePojo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,14 +10,7 @@ import lombok.experimental.Accessors;
 
 import java.time.LocalDateTime;
 
-/**
- * <p>
- * 
- * </p>
- *
- * @author wangyu
- * @since 2020-08-19
- */
+
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)

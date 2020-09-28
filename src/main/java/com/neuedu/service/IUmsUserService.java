@@ -6,14 +6,7 @@ import com.neuedu.pojo.UmsUser;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * <p>
- *  服务类
- * </p>
- *
- * @author wangyu
- * @since 2020-08-19
- */
+
 public interface IUmsUserService extends IService<UmsUser> {
 
     public String token(UmsUser user) throws JsonProcessingException;

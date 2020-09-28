@@ -23,14 +23,7 @@ import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.util.List;
 
-/**
- * <p>
- * 诊疗信息 服务实现类
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+
 @Service
 public class RegisterServiceImpl extends ServiceImpl<RegisterMapper, Register> implements IRegisterService {
 

@@ -10,6 +10,7 @@ import com.neuedu.service.IDoctorService;
 import com.neuedu.service.IRedisService;
 import com.neuedu.util.JWTUtil;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.io.IOException;
@@ -19,13 +20,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * 项目    ： his-server
- * 创建时间 ：2020/8/28  10:21 28
- * author  ：jshand
- * site    :  http://314649444.iteye.com
- * 描述     :
- */
+
 @Service
 public class DoctorServiceImpl implements IDoctorService {
 
@@ -36,6 +31,7 @@ public class DoctorServiceImpl implements IDoctorService {
     RegisterMapper registerMapper;
 
     @Override
+    @Transactional
     public List<Register> registList(String type,String token) throws IOException {
         QueryWrapper<Register> wrapper = new QueryWrapper<>();
         DecodedJWT decode = JWT.decode(token);

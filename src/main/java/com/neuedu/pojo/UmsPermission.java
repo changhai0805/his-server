@@ -8,14 +8,7 @@ import lombok.experimental.Accessors;
 
 import java.util.List;
 
-/**
- * <p>
- * 权限表
- * </p>
- *
- * @author wangyu
- * @since 2020-08-19
- */
+
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)

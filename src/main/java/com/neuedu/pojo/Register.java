@@ -10,14 +10,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-/**
- * <p>
- * 诊疗信息
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)

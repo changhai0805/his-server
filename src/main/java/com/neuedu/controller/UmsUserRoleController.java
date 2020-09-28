@@ -12,14 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
-/**
- * <p>
- * 用户与角色关系表 前端控制器
- * </p>
- *
- * @author wangyu
- * @since 2020-08-19
- */
+
 @RestController
 @RequestMapping("/ums-user-role")
 public class UmsUserRoleController {

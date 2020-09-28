@@ -8,14 +8,7 @@ import lombok.experimental.Accessors;
 
 import java.time.LocalDateTime;
 
-/**
- * <p>
- * 常数项表
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)

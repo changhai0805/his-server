@@ -14,13 +14,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
-/**
- * 项目    ： his-server
- * 创建时间 ：2020/8/28  10:15 28
- * author  ：jshand
- * site    :  http://314649444.iteye.com
- * 描述     :
- */
+
 @RestController
 @RequestMapping("/doctor")
 public class DoctorController {

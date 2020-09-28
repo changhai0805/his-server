@@ -4,14 +4,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.neuedu.dto.FeeDTO;
 import com.neuedu.pojo.Register;
 
-/**
- * <p>
- * 诊疗信息 服务类
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+
 public interface IRegisterService extends IService<Register> {
 
     boolean add(Register register);

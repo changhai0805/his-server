@@ -8,14 +8,7 @@ import com.neuedu.pojo.Register;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
-/**
- * <p>
- * 诊疗信息 Mapper 接口
- * </p>
- *
- * @author jshand
- * @since 2020-08-25
- */
+
 public interface RegisterMapper extends BaseMapper<Register> {
 
     @Select("SELECT MAX(id)+1  FROM register")
